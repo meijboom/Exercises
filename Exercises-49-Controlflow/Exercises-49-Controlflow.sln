@@ -1,0 +1,17 @@
+
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Exercises-49-Controlflow", "Exercises-49-Controlflow\Exercises-49-Controlflow.csproj", "{5C88A4CB-2B1A-465D-A441-B6C557E20FF0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|anycpu = Debug|anycpu
+		Release|anycpu = Release|anycpu
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5C88A4CB-2B1A-465D-A441-B6C557E20FF0}.Debug|anycpu.ActiveCfg = Debug|anycpu
+		{5C88A4CB-2B1A-465D-A441-B6C557E20FF0}.Debug|anycpu.Build.0 = Debug|anycpu
+		{5C88A4CB-2B1A-465D-A441-B6C557E20FF0}.Release|anycpu.ActiveCfg = Release|anycpu
+		{5C88A4CB-2B1A-465D-A441-B6C557E20FF0}.Release|anycpu.Build.0 = Release|anycpu
+	EndGlobalSection
+EndGlobal

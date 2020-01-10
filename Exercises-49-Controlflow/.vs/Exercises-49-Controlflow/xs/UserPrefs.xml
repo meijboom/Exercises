@@ -1,0 +1,26 @@
+﻿<Properties StartupConfiguration="{5C88A4CB-2B1A-465D-A441-B6C557E20FF0}|Default">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Exercises-49-Controlflow/Program.cs">
+    <Files>
+      <File FileName="Exercises-49-Controlflow/Program.cs" Line="16" Column="36" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Exercises-49-Controlflow" expanded="True">
+            <Node name="Exercises-49-Controlflow" expanded="True">
+              <Node name="Programs" expanded="True" />
+              <Node name="Program.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.Exercises-49-Controlflow PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>
