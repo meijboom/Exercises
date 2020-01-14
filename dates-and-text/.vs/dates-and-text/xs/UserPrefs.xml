@@ -1,0 +1,28 @@
+﻿<Properties StartupConfiguration="{37D0E443-6A80-438B-8E37-7DFA38CC9CF2}|Default">
+  <MonoDevelop.Ide.ItemProperties.dates-and-text PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="dates-and-text/StringUtility.cs">
+    <Files>
+      <File FileName="dates-and-text/Program.cs" Line="13" Column="6" />
+      <File FileName="dates-and-text/SummerizeText.cs" Line="29" Column="6" />
+      <File FileName="dates-and-text/StringUtility.cs" Line="2" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="dates-and-text" expanded="True">
+            <Node name="dates-and-text" expanded="True">
+              <Node name="Properties" expanded="True" />
+              <Node name="StringUtility.cs" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

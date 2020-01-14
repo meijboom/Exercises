@@ -1,0 +1,5 @@
+/Users/dennismeijboom/Projects/Exercises/dates-and-text/dates-and-text/obj/Debug/dates-and-text.csprojAssemblyReference.cache
+/Users/dennismeijboom/Projects/Exercises/dates-and-text/dates-and-text/bin/Debug/dates-and-text.exe
+/Users/dennismeijboom/Projects/Exercises/dates-and-text/dates-and-text/bin/Debug/dates-and-text.pdb
+/Users/dennismeijboom/Projects/Exercises/dates-and-text/dates-and-text/obj/Debug/dates-and-text.exe
+/Users/dennismeijboom/Projects/Exercises/dates-and-text/dates-and-text/obj/Debug/dates-and-text.pdb
