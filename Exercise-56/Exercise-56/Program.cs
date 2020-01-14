@@ -7,7 +7,7 @@ namespace Exercise56
     public static void Main()
     {
             Listvalidator();
-            var now = new DateTime(today);
+ 
 
             
     }
