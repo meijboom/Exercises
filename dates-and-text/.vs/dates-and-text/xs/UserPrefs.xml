@@ -2,17 +2,16 @@
   <MonoDevelop.Ide.ItemProperties.dates-and-text PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.Workbench ActiveDocument="dates-and-text/StringUtility.cs">
     <Files>
-      <File FileName="dates-and-text/Program.cs" Line="13" Column="6" />
+      <File FileName="dates-and-text/Program.cs" Line="2" Column="34" />
       <File FileName="dates-and-text/SummerizeText.cs" Line="29" Column="6" />
-      <File FileName="dates-and-text/StringUtility.cs" Line="2" Column="9" />
+      <File FileName="dates-and-text/StringUtility.cs" Line="8" Column="10" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="dates-and-text" expanded="True">
-            <Node name="dates-and-text" expanded="True">
+            <Node name="dates-and-text" expanded="True" selected="True">
               <Node name="Properties" expanded="True" />
-              <Node name="StringUtility.cs" selected="True" />
             </Node>
           </Node>
         </State>
