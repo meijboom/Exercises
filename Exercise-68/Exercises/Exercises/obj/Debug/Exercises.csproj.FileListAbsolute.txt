@@ -3,3 +3,8 @@
 /Users/dennismeijboom/Projects/Exercise-68/Exercises/Exercises/bin/Debug/Exercises.pdb
 /Users/dennismeijboom/Projects/Exercise-68/Exercises/Exercises/obj/Debug/Exercises.exe
 /Users/dennismeijboom/Projects/Exercise-68/Exercises/Exercises/obj/Debug/Exercises.pdb
+/Users/dennismeijboom/Projects/Exercises/Exercise-68/Exercises/Exercises/bin/Debug/Exercises.exe
+/Users/dennismeijboom/Projects/Exercises/Exercise-68/Exercises/Exercises/bin/Debug/Exercises.pdb
+/Users/dennismeijboom/Projects/Exercises/Exercise-68/Exercises/Exercises/obj/Debug/Exercises.csprojAssemblyReference.cache
+/Users/dennismeijboom/Projects/Exercises/Exercise-68/Exercises/Exercises/obj/Debug/Exercises.exe
+/Users/dennismeijboom/Projects/Exercises/Exercise-68/Exercises/Exercises/obj/Debug/Exercises.pdb

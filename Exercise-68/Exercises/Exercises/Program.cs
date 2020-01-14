@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 
 namespace Exercises
 {
@@ -19,7 +20,7 @@ namespace Exercises
             //TimeValidator("2:00");
             ToCamelCase("hello hello hello hello");
             ToCamelCase("HELLO HELLO HELLO HELLO");
-            ToCamelCase("Hello hello hello hellO");
+            ToCamelCase("Hello heLLo hEllo hellO");
 
         }
 
@@ -113,18 +114,21 @@ namespace Exercises
         {
             // uppercase the first letter of word
             var lower = input.ToLower();
-            var strArr = lower.Split(' ');
+            var lowerArr = lower.Split(' ');
             List<string> Camelcased = new List<string>();
-            foreach (var word in strArr)
+            foreach (var word in lowerArr)
             {
                 var upperfirst = char.ToUpper(word[0]) + word.Substring(1);
                 Camelcased.Add(upperfirst);
-
             }   
-                Console.WriteLine(Camelcased);
-                var CamelcasedArr = Camelcased.ToArray();
-                var stringified = CamelcasedArr.ToString();
-                Console.WriteLine(stringified);
+            var CamelcasedArr = Camelcased.ToArray();
+            var stringbuild = new StringBuilder();
+            
+            foreach ( var word in CamelcasedArr)
+            {
+                stringbuild.Append(word);
+            }
+                Console.WriteLine(stringbuild);
         }
 
         
