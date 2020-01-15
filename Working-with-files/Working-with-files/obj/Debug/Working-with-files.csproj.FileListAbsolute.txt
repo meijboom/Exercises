@@ -1,0 +1,5 @@
+/Users/dennismeijboom/Projects/Exercises/Working-with-files/Working-with-files/bin/Debug/Working-with-files.exe
+/Users/dennismeijboom/Projects/Exercises/Working-with-files/Working-with-files/bin/Debug/Working-with-files.pdb
+/Users/dennismeijboom/Projects/Exercises/Working-with-files/Working-with-files/obj/Debug/Working-with-files.csprojAssemblyReference.cache
+/Users/dennismeijboom/Projects/Exercises/Working-with-files/Working-with-files/obj/Debug/Working-with-files.exe
+/Users/dennismeijboom/Projects/Exercises/Working-with-files/Working-with-files/obj/Debug/Working-with-files.pdb
