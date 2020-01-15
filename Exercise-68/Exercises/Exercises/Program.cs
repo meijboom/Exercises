@@ -2,30 +2,40 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.IO;
 
 namespace Exercises
 {
-  class MainClass
-  {
-    public static void Main(string[] args)
+    class MainClass
     {
+        public static void Main(string[] args)
+        {
             //Consecutive("1-2-3-4-5-6-7-8");
             //Consecutive("5-4-3-2-1");
             //Consecutive("1-4-2-3-8-6-7-9");
+
             //Duplicate("1-2-3-4-5-6");
             //Duplicate("1-2-3-4-5-3");
             //Duplicate("");
+
             //TimeValidator("22:00");
             //TimeValidator("25:00");
             //TimeValidator("2:00");
-            ToCamelCase("hello hello hello hello");
-            ToCamelCase("HELLO HELLO HELLO HELLO");
-            ToCamelCase("Hello heLLo hEllo hellO");
+
+            // ToCamelCase("hello hello hello hello");
+            // ToCamelCase("HELLO HELLO HELLO HELLO");
+            // ToCamelCase("Hello heLLo hEllo hellO");
+
+            Console.WriteLine("input your string that needs his vowels counted");
+            var stringVowels = Console.ReadLine();
+            var counted = VowelCounter(stringVowels);
+            Console.WriteLine(counted);
+
 
         }
 
-       // 1- Write a program and ask the user to enter a few numbers separated by a hyphen. Work out if the numbers are consecutive. 
-       // For example, if the input is "5-6-7-8-9" or "20-19-18-17-16", display a message: "Consecutive"; otherwise, display "Not Consecutive".
+        // 1- Write a program and ask the user to enter a few numbers separated by a hyphen. Work out if the numbers are consecutive. 
+        // For example, if the input is "5-6-7-8-9" or "20-19-18-17-16", display a message: "Consecutive"; otherwise, display "Not Consecutive".
 
         // flow used:
         // input str -> split to str[] -> str[] to list<int> -> sort -> compare -> output correct phrase.
@@ -65,10 +75,11 @@ namespace Exercises
 
 
 
+
         // 2 - Write a program and ask the user to enter a few numbers separated by a hyphen.
         //     If the user simply presses Enter, without supplying an input, exit immediately; otherwise, check to see if there are duplicates.
         //     If so, display "Duplicate" on the console. 
-        
+
         public static void Duplicate(string input)
         {
             if (input != "")
@@ -89,9 +100,9 @@ namespace Exercises
             return;
         }
 
-       // 3 -  Write a program and ask the user to enter a time value in the 24-hour time format(e.g. 19:00). A valid time should be between 00:00 and 23:59.
-       //      If the time is valid, display "Ok"; otherwise, display "Invalid Time".
-       //      If the user doesn't provide any values, consider it as invalid time.
+        // 3 -  Write a program and ask the user to enter a time value in the 24-hour time format(e.g. 19:00). A valid time should be between 00:00 and 23:59.
+        //      If the time is valid, display "Ok"; otherwise, display "Invalid Time".
+        //      If the user doesn't provide any values, consider it as invalid time.
         public static void TimeValidator(string input)
         {
             _ = new DateTime();
@@ -120,24 +131,36 @@ namespace Exercises
             {
                 var upperfirst = char.ToUpper(word[0]) + word.Substring(1);
                 Camelcased.Add(upperfirst);
-            }   
+            }
             var CamelcasedArr = Camelcased.ToArray();
             var stringbuild = new StringBuilder();
-            
-            foreach ( var word in CamelcasedArr)
+
+            foreach (var word in CamelcasedArr)
             {
                 stringbuild.Append(word);
             }
-                Console.WriteLine(stringbuild);
+            Console.WriteLine(stringbuild);
         }
 
-        
+
         //  5 - Write a program and ask the user to enter an English word.
         //      Count the number of vowels (a, e, o, u, i) in the word.
         //      So, if the user enters "inadequate", the program should display 6 on the console.
-        public static void VowelCounter(string input)
+        public static string VowelCounter(string input)
         {
+            var arr = input.ToCharArray();
+            int totalVowels = 0;
+            char[] vowels = { 'a', 'e', 'o', 'u', 'i' };
+            foreach (var num in arr)
+            {
+                if (vowels.Contains(num))
+                {
+                    totalVowels++;
+                }
+            }
+            var strTotalVowels = totalVowels.ToString();
 
+            return string.Format("{0} contains {1} vowels.", input, strTotalVowels);
         }
     }
 }

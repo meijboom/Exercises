@@ -1,13 +1,14 @@
-﻿<Properties StartupConfiguration="{DFD0B744-DC95-42D5-B84D-CFB57D631841}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Exercises/Program.cs">
+﻿<Properties StartupConfiguration="{71D95C4C-5FBB-4FC3-AE37-4AEAA0043C6A}|Default">
+  <MonoDevelop.Ide.ItemProperties.Working-with-files FirstBuild="True" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Working-with-files/Program.cs">
     <Files>
-      <File FileName="Exercises/Program.cs" Line="11" Column="29" />
+      <File FileName="Working-with-files/Program.cs" Line="13" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="Exercises" expanded="True">
-            <Node name="Exercises" expanded="True">
+          <Node name="Working-with-files" expanded="True">
+            <Node name="Working-with-files" expanded="True">
               <Node name="Program.cs" selected="True" />
             </Node>
           </Node>
@@ -17,7 +18,6 @@
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|anycpu" />
-  <MonoDevelop.Ide.ItemProperties.Exercises PreferredExecutionTarget="MonoDevelop.Default" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
